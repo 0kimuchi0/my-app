@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*タブレット向けレイアウト*/
+@media (max-width: 960px) {
+  .tablet-edit {
+    display: inline;
+  }
+
+  .tablet-edit-reverse {
+    display: none;
+  }
+  
+  .btn {
+    text-decoration: underline;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-text ul {
+    margin-right: 10px;
+  }
+
+  .header-text a {
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 80px;
+  }
+
+  .top {
+    background-position-y: 15%;
+    padding: 80px 100px;
+    margin-top: 80px;
+  }
+
+  .production-game-content {
+    width: 45%;
+  }
+}
+
+/*スマートフォン向けレイアウト*/
+@media (max-width: 520px) {
+  .smartphone-edit {
+    display: inline;
+  }
+
+  .smartphone-edit-reverse {
+    display: none;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .header-logo img {
+    margin: 0 5px 0 10px;
+  }
+
+  .menu-hidden {
+    display: block;
+  }
+
+  .top {
+    background-position-y: 50%;
+    margin-top: 60px;
+    padding: 50px 60px;
+  }
+
+  .top h1 {
+    font-size: 25px;
+  }
+
+  .main-contents {
+    padding: 25px 15px;
+  }
+
+  .main-content-container {
+    padding: 15px 15px;
+    flex-direction: column;
+  }
+
+  .PCclub-about-explanation {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .PCclub-about-container table {
+    width: 100%;
+  }
+  
+  .activity-content-explanation {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .activity-content-img {
+    width: 100%;
+  }
+
+  .activity-date-and-time-explanation {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .activity-date-and-time-img {
+    width: 100%;
+  }
+
+  .production-game-contents {
+    flex-direction: column;
+  }
+
+  .production-game-content {
+    width: 100%;
+  }
+
+  .production-game-content img {
+    width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-logo a {
+    font-size: 40px;
+  }
+
+  .footer-text {
+    margin: 10px 0;
+  }
+
+  .footer-text a {
+    font-size: 15px;
+  }
+}

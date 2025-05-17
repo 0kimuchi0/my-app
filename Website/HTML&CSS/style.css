@@ -1,0 +1,31 @@
+/*基本レイアウト*/
+@charset "UTF-8";
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+}
+
+header{
+  height: 70px;
+  background-color: rgba(0, 200, 200, 0.8);
+}
+
+.header-title{
+  font-size: 25px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+}
+
+.contents{
+  width: 100%;
+}
+
+.content img{
+  float: left;
+  width: 20%;
+}
